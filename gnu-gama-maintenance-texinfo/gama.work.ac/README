@@ -1,0 +1,6 @@
+# gnulib
+#
+# cd gama.work
+#
+git clone git://git.sv.gnu.org/gnulib.git
+ln -s gnulib/build-aux/announce-gen     # create a symlink or copy ...
