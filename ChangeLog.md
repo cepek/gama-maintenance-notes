@@ -1,5 +1,7 @@
 # 2.27
 
+Add all filese from deleted github repository `upload-gama` to `REMOVED` directory,
+
 ## 2023-11-09
 
 The section `New release` of **MAINTAINING.md** is identical to the corresponding section from 
