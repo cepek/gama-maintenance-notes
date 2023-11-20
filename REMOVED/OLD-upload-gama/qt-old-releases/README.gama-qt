@@ -1,0 +1,6 @@
+Gama-qt subproject is implementing Qt based GUI for GNU Gama project.
+
+In this directory ftp.gnu.org/gnu/gama/gama-qt you find downloads of
+lightweight tags from git server git://git.savannah.gnu.org/gama/qt.git
+
+See also https://git.savannah.gnu.org/cgit/gama/qt.git

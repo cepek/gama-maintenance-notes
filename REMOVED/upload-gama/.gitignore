@@ -1,0 +1,15 @@
+OLD-upload-gama
+*~
+*.sig
+*.tar.gz
+*win64.zip
+gama
+gnulib
+gnupload
+announce-gen
+gama-old-releases
+qt-old-releases
+windows
+examples
+NEWS
+new-release.md

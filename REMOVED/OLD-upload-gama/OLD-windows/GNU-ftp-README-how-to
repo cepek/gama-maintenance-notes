@@ -1,0 +1,5 @@
+Gama for MS-Windows
+
+1. vytvořil jsem soubor README a uložil do nově vytvořeného adresáře windows
+
+./gnupload --to ftp.gnu.org:gama/windows README

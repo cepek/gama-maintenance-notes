@@ -1,0 +1,8 @@
+Projekty na SourceForge.net
+
+https://sourceforge.net/projects/gnu-gama-local/
+https://sourceforge.net/projects/qgama/
+
+přesměrovány na
+
+https://ftp.gnu.org/gnu/gama/windows/

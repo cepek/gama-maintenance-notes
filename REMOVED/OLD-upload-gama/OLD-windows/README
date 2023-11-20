@@ -1,0 +1,30 @@
+Copyright (C) 2000-2019 Free Software Foundation, Inc.
+See the end of the file for license conditions.
+
+		Gama for MS-Windows
+
+Precompiled versions of Gama for MS-Windows are available from the
+the ftp.gnu.org server and its mirrors:
+
+       https://ftp.gnu.org/gnu/gama/windows/
+
+Each major version of Gama is kept in its own subdirectory. Please
+see the README files there for details of how to install and run
+Gama.
+
+
+
+This file is part of GNU Gama.
+
+GNU Gama is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+GNU Gama is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with GNU Gama.  If not, see <https://www.gnu.org/licenses/>.

@@ -1,0 +1,41 @@
+I've just realized that the preceding release was nearly three years
+ago. So this release was long overdue.
+
+Here are the compressed sources and a GPG detached signature[*]:
+  https://ftp.gnu.org/gnu/vc-dwim/vc-dwim-1.9.tar.xz
+  https://ftp.gnu.org/gnu/vc-dwim/vc-dwim-1.9.tar.xz.sig
+
+Use a mirror for higher download bandwidth:
+  https://ftpmirror.gnu.org/vc-dwim/vc-dwim-1.9.tar.xz
+  https://ftpmirror.gnu.org/vc-dwim/vc-dwim-1.9.tar.xz.sig
+
+[*] Use a .sig file to verify that the corresponding file (without the
+.sig suffix) is intact.  First, be sure to download both the .sig file
+and the corresponding tarball.  Then, run a command like this:
+
+  gpg --verify vc-dwim-1.9.tar.xz.sig
+
+If that command fails because you don't have the required public key,
+then run this command to import it:
+
+  gpg --keyserver keys.gnupg.net --recv-keys 7FD9FCCB000BEEEE
+
+and rerun the 'gpg --verify' command.
+
+This release was bootstrapped with the following tools:
+  Autoconf 2.69.197-b8fd7-dirty
+  Automake 1.16a
+  Gnulib v0.1-3088-g6ad341ee4
+
+=======================================
+NEWS
+
+* Noteworthy changes in release 1.9 (2019-12-23) [stable]
+
+** New features
+
+  vc-dwim and vc-chlog now also work with git worktree directories
+
+  vc-dwim accepts a new option: --dry-run (-n)
+
+
