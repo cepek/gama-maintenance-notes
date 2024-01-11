@@ -1,0 +1,65 @@
+
+Subject: gama-2.25 released [stable]
+
+<#secure method=pgpmime mode=sign>
+
+About
+
+GNU Gama package is dedicated to adjustment of geodetic networks. It
+is intended for use with traditional geodetic surveyings which are
+still used and needed in special measurements (e.g., underground or
+high precision engineering measurements) where the Global Positioning
+System (GPS) cannot be used.
+
+Adjustment in local coordinate systems is fully supported by a
+command-line program gama-local that adjusts geodetic (free) networks
+of observed distances, directions, angles, height differences, 3D
+vectors and observed coordinates (coordinates with given
+variance-covariance matrix). Adjustment in global coordinate systems
+is supported only partly as a gama-g3 program.
+
+https://www.gnu.org/software/gama/
+
+
+Here are the compressed sources and a GPG detached signature[*]:
+  https://ftp.gnu.org/gnu/gama/gama-2.25.tar.gz
+  https://ftp.gnu.org/gnu/gama/gama-2.25.tar.gz.sig
+
+Use a mirror for higher download bandwidth:
+  https://ftpmirror.gnu.org/gama/gama-2.25.tar.gz
+  https://ftpmirror.gnu.org/gama/gama-2.25.tar.gz.sig
+
+Here are the SHA1 and SHA256 checksums:
+
+b84d0ea81cf96c7edc9fe7a23f1d545349778892  gama-2.25.tar.gz
+W+uIUmaeqo4vqrvisA2bpAET+kp3YT+yYYxyiJPKBbY  gama-2.25.tar.gz
+
+The SHA256 checksum is base64 encoded, instead of the
+hexadecimal encoding that most checksum tools default to.
+
+[*] Use a .sig file to verify that the corresponding file (without the
+.sig suffix) is intact.  First, be sure to download both the .sig file
+and the corresponding tarball.  Then, run a command like this:
+
+  gpg --verify gama-2.25.tar.gz.sig
+
+If that command fails because you don't have the required public key,
+then run this command to import it:
+
+  gpg --keyserver keys.gnupg.net --recv-keys 1b77fc09
+
+and rerun the 'gpg --verify' command.
+
+NEWS
+
+Changes in release 2.25 (2023-08-23)
+
+  - new program gama-local-deformation for processing two adjustment
+    epochs to calculate potential points position changes (shift
+    vectors).
+
+  - change from c++11 version to c++14
+
+  - New glossary of basic terms used in gama-local text output and in
+    documentation.
+

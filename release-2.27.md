@@ -80,7 +80,7 @@ $
 
 After a moment
 ```
-From fto-upload@gnu.org
+From ftp-upload@gnu.org
   To Me, Petra Millarova
 Subject [ftp gnu-ftp-upload] fgama
 
