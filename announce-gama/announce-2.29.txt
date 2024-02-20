@@ -1,15 +1,21 @@
 
 Subject: gama-2.29 released [stable]
 
+<#secure method=pgpmime mode=sign>
 This is to announce gama-2.29, a stable release.
+
+FIXME: put comments here
+
+There have been 0 commits by 0 people in the 0 seconds since 2.28.
 
 See the NEWS below for a brief summary.
 
 Thanks to everyone who has contributed!
+The following people contributed changes to this release:
+
 
 Ales
-[on behalf of the gama maintainers]
-
+ [on behalf of the gama maintainers]
 ==================================================================
 
 Here is the GNU gama home page:
@@ -84,3 +90,4 @@ Changes in release 2.29 (2024-02-19)
     the whole package. To avoid possible confusion between two different
     version of these helper programs, they vere assigned their own minon
     version, for example compare-xyz 2.29-0.3.
+
