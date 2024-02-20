@@ -1,3 +1,15 @@
+# directory gama-maintenance-notes
+#
+gnulib
+gnupload
+announce-gen
+NEWS
+*.gz
+*~
+REMOVED
+#
+# --------------------------------------------
+#
 # yaml-cpp copy for optional alternative build
 #
 lib/yaml-cpp
