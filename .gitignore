@@ -4,6 +4,7 @@ gnulib
 gnupload
 announce-gen
 NEWS
+*.err
 *.gz
 *~
 REMOVED
